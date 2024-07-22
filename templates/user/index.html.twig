@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello UserController!{% endblock %}
+
+{% block body %}
+<h1>Inscrption</h1>
+ <br>
+  {{ form_start(form) }}
+  {{ form_widget((form)) }}
+  <br>
+  <button type="submit">Envoyer</button>
+  {{ form_end(form) }}
+
+{% endblock %}
